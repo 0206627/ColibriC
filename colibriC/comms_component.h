@@ -10,5 +10,12 @@
 #define comms_component_h
 
 #include <stdio.h>
+#include "component.h"
+
+typedef struct {
+    CommsComponent super;
+} Antenna;
+
+void Antenna_ctor(CommsComponent * const me);
 
 #endif /* comms_component_h */

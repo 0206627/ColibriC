@@ -10,5 +10,12 @@
 #define thermal_component_h
 
 #include <stdio.h>
+#include "component.h"
+
+typedef struct {
+    ThermalComponent super;
+} TempSensor;
+
+void TempSensor_ctor(ThermalComponent * const me);
 
 #endif /* thermal_component_h */

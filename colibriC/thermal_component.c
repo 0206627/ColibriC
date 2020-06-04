@@ -7,3 +7,7 @@
 //
 
 #include "thermal_component.h"
+
+void TempSensor_ctor(ThermalComponent * const me) {
+    ThermalComponent_ctor(&me->super, "Temperature Sensor");
+}

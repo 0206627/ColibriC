@@ -10,5 +10,18 @@
 #define power_component_h
 
 #include <stdio.h>
+#include "component.h"
+
+typedef struct {
+    PowerComponent super;
+} Batteries;
+
+void Batteries_ctor(PowerComponent * const me);
+
+typedef struct {
+    PowerComponent super;
+} EPS;
+
+void EPS_ctor(PowerComponent * const me);
 
 #endif /* power_component_h */

@@ -7,3 +7,7 @@
 //
 
 #include "comms_component.h"
+
+void Antenna_ctor(CommsComponent * const me) {
+    CommsComponent_ctor(&me->super, "Antenna");
+}

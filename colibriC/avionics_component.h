@@ -10,5 +10,19 @@
 #define avionics_component_h
 
 #include <stdio.h>
+#include "component.h"
+
+typedef struct {
+    AvionicsComponent super;
+} CPU;
+
+void CPU_ctor(AvionicsComponent * const me);
+
+typedef struct {
+    AvionicsComponent super;
+} SD;
+
+void SD_ctor(AvionicsComponent * const me);
+
 
 #endif /* avionics_component_h */

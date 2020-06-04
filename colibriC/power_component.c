@@ -7,3 +7,11 @@
 //
 
 #include "power_component.h"
+
+void Batteries_ctor(PowerComponent * const me) {
+    PowerComponent_ctor(&me->super, "Batteries");
+}
+
+void EPS_ctor(PowerComponent * const me) {
+    PowerComponent_ctor(&me->super, "EPS");
+}

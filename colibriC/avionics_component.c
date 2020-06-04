@@ -7,3 +7,11 @@
 //
 
 #include "avionics_component.h"
+
+void CPU_ctor(AvionicsComponent * const me) {
+    AvionicsComponent_ctor(&me->super, "CPU");
+}
+
+void SD_ctor(AvionicsComponent * const me) {
+    AvionicsComponent_ctor(&me->super, "SD");
+}

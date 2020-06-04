@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		ED5F1F422488718000111180 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F412488718000111180 /* main.c */; };
+		ED5F1F4A248871AB00111180 /* component.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F49248871AB00111180 /* component.c */; };
+		ED5F1F4D2488720A00111180 /* component_report.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F4C2488720A00111180 /* component_report.c */; };
+		ED5F1F502488723E00111180 /* comms_component.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F4F2488723E00111180 /* comms_component.c */; };
+		ED5F1F562488727100111180 /* thermal_component.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F552488727100111180 /* thermal_component.c */; };
+		ED5F1F592488729A00111180 /* avionics_component.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F582488729A00111180 /* avionics_component.c */; };
+		ED5F1F5C2488731400111180 /* power_component.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F5B2488731400111180 /* power_component.c */; };
+		ED5F1F5F2488737F00111180 /* con_op_manager.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F5E2488737F00111180 /* con_op_manager.c */; };
+		ED5F1F62248873D700111180 /* enums.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F61248873D700111180 /* enums.c */; };
+		ED5F1F652488740100111180 /* conop_switcher_input.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F642488740100111180 /* conop_switcher_input.c */; };
+		ED5F1F682488742300111180 /* flight_system.c in Sources */ = {isa = PBXBuildFile; fileRef = ED5F1F672488742300111180 /* flight_system.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,26 @@
 /* Begin PBXFileReference section */
 		ED5F1F3E2488718000111180 /* colibriC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = colibriC; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5F1F412488718000111180 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ED5F1F48248871AB00111180 /* component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = component.h; sourceTree = "<group>"; };
+		ED5F1F49248871AB00111180 /* component.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = component.c; sourceTree = "<group>"; };
+		ED5F1F4B2488720A00111180 /* component_report.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = component_report.h; sourceTree = "<group>"; };
+		ED5F1F4C2488720A00111180 /* component_report.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = component_report.c; sourceTree = "<group>"; };
+		ED5F1F4E2488723E00111180 /* comms_component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comms_component.h; sourceTree = "<group>"; };
+		ED5F1F4F2488723E00111180 /* comms_component.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = comms_component.c; sourceTree = "<group>"; };
+		ED5F1F542488727100111180 /* thermal_component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thermal_component.h; sourceTree = "<group>"; };
+		ED5F1F552488727100111180 /* thermal_component.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = thermal_component.c; sourceTree = "<group>"; };
+		ED5F1F572488729A00111180 /* avionics_component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avionics_component.h; sourceTree = "<group>"; };
+		ED5F1F582488729A00111180 /* avionics_component.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = avionics_component.c; sourceTree = "<group>"; };
+		ED5F1F5A2488731400111180 /* power_component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = power_component.h; sourceTree = "<group>"; };
+		ED5F1F5B2488731400111180 /* power_component.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = power_component.c; sourceTree = "<group>"; };
+		ED5F1F5D2488737F00111180 /* con_op_manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = con_op_manager.h; sourceTree = "<group>"; };
+		ED5F1F5E2488737F00111180 /* con_op_manager.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = con_op_manager.c; sourceTree = "<group>"; };
+		ED5F1F60248873D700111180 /* enums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enums.h; sourceTree = "<group>"; };
+		ED5F1F61248873D700111180 /* enums.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = enums.c; sourceTree = "<group>"; };
+		ED5F1F632488740100111180 /* conop_switcher_input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conop_switcher_input.h; sourceTree = "<group>"; };
+		ED5F1F642488740100111180 /* conop_switcher_input.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = conop_switcher_input.c; sourceTree = "<group>"; };
+		ED5F1F662488742300111180 /* flight_system.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flight_system.h; sourceTree = "<group>"; };
+		ED5F1F672488742300111180 /* flight_system.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = flight_system.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,26 @@
 			isa = PBXGroup;
 			children = (
 				ED5F1F412488718000111180 /* main.c */,
+				ED5F1F48248871AB00111180 /* component.h */,
+				ED5F1F49248871AB00111180 /* component.c */,
+				ED5F1F4B2488720A00111180 /* component_report.h */,
+				ED5F1F4C2488720A00111180 /* component_report.c */,
+				ED5F1F4E2488723E00111180 /* comms_component.h */,
+				ED5F1F4F2488723E00111180 /* comms_component.c */,
+				ED5F1F542488727100111180 /* thermal_component.h */,
+				ED5F1F552488727100111180 /* thermal_component.c */,
+				ED5F1F572488729A00111180 /* avionics_component.h */,
+				ED5F1F582488729A00111180 /* avionics_component.c */,
+				ED5F1F5A2488731400111180 /* power_component.h */,
+				ED5F1F5B2488731400111180 /* power_component.c */,
+				ED5F1F5D2488737F00111180 /* con_op_manager.h */,
+				ED5F1F5E2488737F00111180 /* con_op_manager.c */,
+				ED5F1F60248873D700111180 /* enums.h */,
+				ED5F1F61248873D700111180 /* enums.c */,
+				ED5F1F632488740100111180 /* conop_switcher_input.h */,
+				ED5F1F642488740100111180 /* conop_switcher_input.c */,
+				ED5F1F662488742300111180 /* flight_system.h */,
+				ED5F1F672488742300111180 /* flight_system.c */,
 			);
 			path = colibriC;
 			sourceTree = "<group>";
@@ -119,7 +169,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5F1F5C2488731400111180 /* power_component.c in Sources */,
+				ED5F1F5F2488737F00111180 /* con_op_manager.c in Sources */,
 				ED5F1F422488718000111180 /* main.c in Sources */,
+				ED5F1F562488727100111180 /* thermal_component.c in Sources */,
+				ED5F1F4D2488720A00111180 /* component_report.c in Sources */,
+				ED5F1F4A248871AB00111180 /* component.c in Sources */,
+				ED5F1F62248873D700111180 /* enums.c in Sources */,
+				ED5F1F652488740100111180 /* conop_switcher_input.c in Sources */,
+				ED5F1F502488723E00111180 /* comms_component.c in Sources */,
+				ED5F1F682488742300111180 /* flight_system.c in Sources */,
+				ED5F1F592488729A00111180 /* avionics_component.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +298,23 @@
 		ED5F1F462488718000111180 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CLANG_WARN_MISSING_NOESCAPE = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				"GCC_NO_COMMON_BLOCKS[arch=*]" = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -246,7 +322,22 @@
 		ED5F1F472488718000111180 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CLANG_WARN_MISSING_NOESCAPE = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
